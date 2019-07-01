@@ -49,7 +49,7 @@ public class controller {
     }
 
     /**
-     * 模拟事务操作
+     * 模拟事务操作，进行回滚
      *
      * @param user
      * @return
@@ -59,5 +59,6 @@ public class controller {
         userService.addUser(user);
         return user;
     }
+
 
 }
