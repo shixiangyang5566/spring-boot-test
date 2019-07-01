@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-01-helloworld" />
+        <module name="spring-boot-01-init-02" />
+        <module name="spring-boot-02-config" />
+        <module name="spring-boot-02-config-02" />
+        <module name="spring-boot-03-logging" />
+        <module name="spring-boot-04-web" />
+        <module name="spring-boot-05-bill" />
+        <module name="spring-boot-06-servlet" />
+        <module name="spring-boot-08-data-jdbc" />
+        <module name="spring-boot-08-mybatis" />
+        <module name="spring-boot-08-mybatis-test" />
+        <module name="spring-boot-09-jpa" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
