@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <th>姓名</th>
+        <th>性别</th>
+    </tr>
+    <tr th:each="user :${userList}">
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.gender==1?'女':'男'}"></td>
+    </tr>
+    <dev>
+        <h2>11111111222223333</h2>
+
+    </dev>
+</table>
+</body>
+</html>

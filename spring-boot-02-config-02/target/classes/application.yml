@@ -1,0 +1,15 @@
+server:
+  port: 8081 #默认端口号
+spring:
+  profiles:
+    active: dev #标识激活dev环境
+---
+server:
+     port: 8082
+spring:
+  profiles: dev #指定属于哪个环境，dev环境使用
+---
+server:
+     port: 8088
+spring:
+  profiles: prod #指定属于哪个环境使用，生产环境使用

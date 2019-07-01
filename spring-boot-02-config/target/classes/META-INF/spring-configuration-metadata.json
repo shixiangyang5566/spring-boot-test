@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "emp",
+      "type": "com.mengxugu.springboot.bean.Emp",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    }
+  ],
+  "properties": [
+    {
+      "name": "emp.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.birthday",
+      "type": "java.util.Date",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.forte",
+      "type": "com.mengxugu.springboot.bean.Forte",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.list",
+      "type": "java.util.List",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.map",
+      "type": "java.util.Map",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    },
+    {
+      "name": "emp.salary",
+      "type": "java.lang.Double",
+      "sourceType": "com.mengxugu.springboot.bean.Emp"
+    }
+  ],
+  "hints": []
+}
